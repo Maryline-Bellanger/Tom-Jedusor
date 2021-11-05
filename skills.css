@@ -1,0 +1,244 @@
+
+.bloc-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.skills-section {
+    color: #007c4f;
+    flex: 2;
+    border: #343a40 solid 3px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px 25px 50px 100px;
+}
+
+.title-group-skills {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 170%;
+}
+
+.skill-title, .skill-container {
+    margin-left: 2%;
+}
+
+.skill-title {
+    text-align: left;
+    margin-left: 1.8vw;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.skill-container {
+    background-color: rgba(52, 58, 64, 0.85);
+    width: 90%;
+    border-radius: 30px;
+    height: 2.5vh;
+}
+
+.skill {
+    background-color: #007c4f;
+    padding: 1%;
+    border-radius: 30px;
+    height: 2.5vh;
+    
+}
+
+.bar1 {
+    animation: animate-bar1 4s;
+    background-color: #007c4f;
+    width: 60%;
+}
+.bar2 {
+    animation: animate-bar2 4s;
+    background-color: #007c4f;
+    width: 90%;
+}
+.bar3 {
+    animation: animate-bar3 4s;
+    background-color: #007c4f;
+    width: 50%;
+}
+.bar4 {
+    animation: animate-bar4 4s;
+    background-color: #007c4f;
+    width: 80%;
+}
+.bar5 {
+    animation: animate-bar5 4s;
+    background-color: #007c4f;
+    width: 75%;
+}
+.bar6 {
+    animation: animate-bar6 4s;
+    background-color: #007c4f;
+    width: 65%;
+}
+
+.group-section {
+    color: #007c4f;
+    flex: 1;
+    border: #343a40 solid 3px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px 100px 50px 25px;
+}
+
+.assets-section {
+    padding-bottom: 40px;
+    height: 50%;
+}
+
+.ul-asset, .ul-hobbie {
+    columns: 2;
+    text-align: center;
+}
+
+.li-asset, .li-hobbie {
+    padding: 40px 10px 0px 10px;
+}
+
+.hobbies-section {
+    padding-top: 20px;
+    border-top: #007c4f solid 2px;
+    height: 50%;
+}
+
+@keyframes animate-bar1 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+@keyframes animate-bar2 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes animate-bar3 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+@keyframes animate-bar4 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes animate-bar5 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 75%;
+    }
+}
+@keyframes animate-bar6 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bloc-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    
+    .skills-section {
+        color: #007c4f;
+        flex: 1;
+        border: #343a40 solid 3px;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 30px;
+    }
+
+    .skill-title {
+        margin-left: 3vw;
+    }
+    
+    .title-group-skills {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .group-section {
+        flex-direction: column;
+        flex: 1;
+        margin: 0px 30px 30px 30px;
+    }
+    
+    .assets-section{
+        flex:none;
+        height: 50%;
+    }
+
+    .hobbies-section {
+        padding-top: 20px;
+        flex: none;
+        border-left: none;
+        border-top: #007c4f solid 2px;
+        height: 50%;
+    }
+    .li-asset, .li-hobbie {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .bloc-container {
+        flex-direction: column;
+    }
+    
+    .skills-section {
+        flex: 1;
+        margin: 50px;
+    }
+    
+    .group-section {
+        display: flex;
+        flex: none;
+        margin: 0px 50px 50px 50px;
+    }
+    
+    .assets-section {
+        flex: 1;
+        height: 100%;
+    }
+    
+    .hobbies-section {
+        flex: 1;
+        padding-top: 0px;
+        border-top: none;
+        border-left: #007c4f solid 2px;
+        height: 100%;
+    }
+}

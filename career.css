@@ -1,0 +1,129 @@
+
+.career {  
+
+display: flex;
+width : 100%;
+margin: auto;
+line-height: 220%;
+
+
+}
+
+.item3 {
+
+background-color: blanchedalmond;
+margin-top: 1vh;
+text-align: center;
+border-radius: 40px;
+margin: 10%;
+
+}
+
+.Scolarite, .professionnel {
+
+margin: 6%;
+
+}
+
+
+.title1, .title2 {
+
+background-color: white;
+font-size: 240%;
+text-align: center;
+border-radius: 40px;
+color: #007C4F;
+border: solid white;
+margin: 8%;
+
+
+}
+
+.ligne {
+
+border-top: 1px solid black;
+margin: 8%;
+
+}
+
+.schoolul {
+
+list-style-type : none;
+display: flex;
+
+}
+
+.school1, .pro1 {
+
+width: 40vw;
+font-weight: bold;
+color: black;
+font-size: 180%;
+margin: 2%;
+
+
+}
+
+.ulpro {
+
+  list-style-type : none;
+   display: flex;
+   
+}
+
+.school2, .pro2{
+
+color: black;
+font-size: 160%;
+margin: 2%;
+text-align: left;
+width: 40vw;
+ 
+
+}
+
+
+@media all and (max-width: 600px)
+{
+
+  .school1, .pro1 {
+    font-size: 140%;
+    text-align: center;
+    margin: 20%;
+    border-bottom: 1px solid black;
+    color: #007C4F;
+  }
+  
+  .school2, .pro2 {
+    text-align: center;
+  }
+
+ .title2, .title1 {
+  font-size: 190%;
+  }
+  
+  .schoolul {
+    
+    flex-direction: column;
+     width: 20vw;
+    align-items: center;
+    margin-left: 35%;
+    padding: 5%;
+    
+    }
+    
+    .ulpro {
+     
+      flex-direction: column;
+      width: 20vw;
+      align-items: center;
+      margin-left: 35%;
+       padding: 5%;
+       
+    }
+    
+   
+
+} 
+
+
